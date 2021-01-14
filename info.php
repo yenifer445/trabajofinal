@@ -31,25 +31,37 @@
 
     </nav>
 </header>
+<style>
+       .container{
+        position: relative;
+        display: inline-block;
 
-<p> 
-<img src="imagen/sector.jpg"  align="left"  width="500px" height="400px" ;><pre> 
-<h1>                         Multiservicios Juan Diego</h1>
-<h2>      Somos un establecimiento comercial dedicado a la venta de productos de gran útidad para 
-      autos de gran tamaño, 
-      la construcción y las necesidades del hogar,normalmente para el público en general aunque
-      también existen dedicadas a profesionales con elementos específicos como la construccion de 
-      los parachoques,y herramientas de pequeño tamaño, clavos, tornillos, silicona, persianas,
-      pinturas, entre otros.</h2></pre> 
-</p>
-</br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> 
-<p> 
-<img src="imagen/ferre.jpg"  align="left"  width="500px" height="400px" ;><pre> 
+    }
+    
+    img{
+        max-width: 100%;
+ }
+   
+</style> 
+<div id="container">
+
+
+<center><img src="imagen/sector.jpg"  class="img-fluid"  width="1000px" height="400px" ;><pre> 
+<h1>       Multiservicios Juan Diego</h1>
+<h2>      Somos un establecimiento comercial dedicado a la venta de productos de gran útidad para
+      autos de gran tamaño,la construcción y las necesidades del hogar,normalmente para el 
+      público en general aunque  también existen dedicadas a profesionales con elementos 
+      específicos como la construccion de los parachoques,y herramientas de pequeño tamaño, clavos,
+      tornillos, silicona, persianas,pinturas, entre otros.</h2></pre> </center>
+
+   </br> </br> 
+
+<center> <img src="imagen/ferre.jpg"  class="img-fluid"  width="1000px" height="400px" ;><pre> 
 <h2>  
      + Nuestro establecimiento comercial le ofrece una gama de productos de buena calidad.
-     + Nuestro personal le dara una tencion de calidad.
-     + Apersonese a nuestro establecimientos.
+     + Nuestro personal le dara una tencion de calidad y atencion rapida. 
+     + Apersonese a nuestro establecimientos encontrara lo que esta buscando.</center>
 </h2></pre> 
-</p>
+</div>
 </body>
 </html>
