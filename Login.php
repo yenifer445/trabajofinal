@@ -1,16 +1,6 @@
+
 <?php 
-    $hn = 'localhost';
-    $db = 'tin';
-    $un = 'root';
-    $pw = '';
-    $port = 3306;
-?>
- <html>
-      <head> </head>
-      <body background="imagen/lud.jpg" >
-      </body> 
-      </html>
-<?php 
+    require_once 'Conexion.php';
     $conexion = new mysqli($hn, $un, $pw, $db, 3306);
     if($conexion->connect_error) die("Error fatal");
     if (isset($_POST['username'])&&
@@ -30,7 +20,7 @@
             if (password_verify($pw_temp, $row[3])) 
             {
                 session_start();
-                die ("<h1><p><a href=''>
+                die ("<h1><p><a href='index.html'>
               ENTRAR</a></p></h1>");
             }
             else {
@@ -47,19 +37,16 @@
     else
     {
       echo <<<_END
-      <html><head></head> <body>
-      <br></br>
-      <br></br>
-      <center>  </center> 
-      <center><h1>INGRESE </h1><img src="imagen/log.jpg" style="width:70px;height:67px" /> </center>
-      <form method="post" action="index.html">
-      <center> <h3> Usuario  <input type="text" name="username" placeholder="Nombre de Usuario" ></h3>
-               <h3> Password <input type="text" name="password" placeholder="Contraseña" ></br></h3>
-               <h3> Email    <input type="email" name="email" placeholder="Correo Electronico" ></h3>
-               <input type="submit" value="INGRESAR" style="width:85px;height:40px">
-               <br><br><a href="sig.php"> si no tienes una cuenta:Registrate</a></h3></br></br>
-               <a href="cambio.php">Olvidaste tu Contraseña?</a></center></form>
-               <body> <html>        
+      <html><head> <link rel="stylesheet" href="logi.css"></head>
+      <div class="login">
+      <center><h3>INGRESE </h3><img src="imagen/log.jpg" class="log" style="width:70px;height:67px" /> </center>
+      <form method="post" action="Login.php">
+      <input type="text" name="username" placeholder="Nombre de Usuario" style="width:400px;height:50px"> </br></br>
+      <input type="text" name="password" placeholder="Contraseña" style="width:400px;height:50px"> </br></br>
+      <input type="text" name="email"  placeholder="Correo Electronico" style="width:400px;height:50px">
+      </br></br><center><input type="submit" value="Entrar" style="width:100px;height:50px"></center>
+      <br><br><a href="sig.php"><h3> si no tienes una cuenta:Registrate</h3></a>
+       <a href="cambio.php"><h3>Olvidaste tu Contraseña?</h3></a></div></form></html>       
       _END;
     
     }
