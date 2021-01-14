@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-01-2021 a las 03:21:17
+-- Tiempo de generación: 14-01-2021 a las 23:47:05
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.5
 
@@ -43,6 +43,27 @@ INSERT INTO `dos` (`title`, `anotacion`, `fecha`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `regista`
+--
+
+CREATE TABLE `regista` (
+  `proveedor` varchar(128) DEFAULT NULL,
+  `producto` varchar(128) DEFAULT NULL,
+  `precio` smallint(10) DEFAULT NULL,
+  `descripcion` varchar(200) DEFAULT NULL,
+  `stok` char(25) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `regista`
+--
+
+INSERT INTO `regista` (`proveedor`, `producto`, `precio`, `descripcion`, `stok`) VALUES
+('Saul', 'liquido de freno', 18, 'buena calidad', '1');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `usuarios`
 --
 
@@ -63,11 +84,14 @@ INSERT INTO `usuarios` (`nombre`, `apellido`, `username`, `password`, `email`) V
 ('juj', 'robj', ' patij', '$2y$10$5byQ69jRwWMl6KfEqJN8NeHkPEOcq0iE4lYMtDPhCc73Dw0qNbTLq', ''),
 ('lucas', 'Quispe Quispe', ' pato', '$2y$10$r3kSCUGMr3FqBeYvKiQxxuR2x/qiLfue1BU7RjGHi5KDiikZfg9A6', ''),
 ('cristian', 'Rodriges', 'cristina', '$2y$10$bePmrjmMt/wO8guh0yKWDugVd8my3mF1Q5lMDhQ1lyQ0QUuu2cxhS', 'lancelot@gmail.com'),
+('yuliana', 'huaran', 'dara', '$2y$10$gMtJotWRGXEX2o1wW8S61uaT/u1C/Lb3aw22x4NYE1fX2EkzAnUGm', 'lancelot@gmail.com'),
+('andrea', 'fratt', 'lilili', '$2y$10$uejfx9KOTO7.zd6jeqB8QumS0U5Xf/frGpKTG5IzfsEp04FBGb5p.', 'lancelot@gmail.com'),
 ('lucas', 'rodriges', 'luc', '$2y$10$iAWs8I8XAEY1h4872BWSqe41SLW70u91l0PKRdAeR03LViUZ8zpLO', ''),
 ('lulu', 'Servantillo', 'lulu', '$2y$10$t5Zhw2BUtNkKDWu8oXdaPu/AQmZNRnn69HDPHgT.w0CnW9XQfENNu', ''),
 ('sara', 'roberto', 'mimi', '$2y$10$yNFbiXXLPRmWyykSYzIz2.K/4EzgMubxlqx6A9lvHBOL68i3QZhZi', ''),
 ('Roberto', 'Salazar Miri', 'rob', '$2y$10$pDdsWDCVoRgrGzNEtbqqo.n60zn85bLJq6nonAAN8GcJHTTX1LmUe', ''),
 ('sara', 'Garcia Minaya', 'sara', '$2y$10$S9hHbKNdwyhE3RD2w3TU3OW17FQ.G61lsaeM9dFBtZVs5IWW/VQpS', ''),
+('saul', 'sicha rodas', 'saul', '$2y$10$xL/Ltb0s.a7R6H0d1.EXgehwcwexf1iPoEqnENoAcXHHahdYQ3FlK', 'lancelot@gmail.com'),
 ('lizeth', 'Rodriges', 'yeni', '$2y$10$KSK6amu.xAD.sCPA0lLd9OxPyeUlqG6JU25laqEMpEGHJi/.yMosW', 'huamanrodascarolina@gmail.com');
 
 --
