@@ -3,6 +3,7 @@
    <html >
    <head>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <header>
@@ -21,11 +22,11 @@
                 </li>
                 <li ><a href="#">Productos</a>
                     <ul> 
-                        <li ><a href="#">Registro de Productos</a></li>
-                        <li ><a href="#">Trabajo Que Ofrecemos</a></li>
+                        <li ><a href="registroP.php">Registro de Productos</a></li>
+                        <li ><a href="diseñoPrecio.php">Descuentos en producto</a></li>
                      </ul></li>
-                <li><a href="#">Categoria Productos</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="categoria.php">Categoria Productos</a></li>
+                <li><a href="servicio.php">Servicios</a></li>
         </ul>
 </div>
 
@@ -46,22 +47,47 @@
 <div id="container">
 
 
-<center><img src="imagen/sector.jpg"  class="img-fluid"  width="1000px" height="400px" ;><pre> 
-<h1>       Multiservicios Juan Diego</h1>
-<h2>      Somos un establecimiento comercial dedicado a la venta de productos de gran útidad para
+<section id="main-section">
+<article>
+<h1>  Multiservicios Juan Diego</h1>
+<p>   Somos un establecimiento comercial dedicado a la venta de productos de gran útidad para
       autos de gran tamaño,la construcción y las necesidades del hogar,normalmente para el 
       público en general aunque  también existen dedicadas a profesionales con elementos 
       específicos como la construccion de los parachoques,y herramientas de pequeño tamaño, clavos,
-      tornillos, silicona, persianas,pinturas, entre otros.</h2></pre> </center>
+      tornillos, silicona, persianas,pinturas en esprait tambien hay pinturas automotriz en los diversas tonalidades para carros grandes y pequeños, entre otros.</p>
+      <p>Tenemos amplia gama de productos para automovil de camion y volvos y bricolages tanto para casa como la reparacion de tubos.</p>
+<img src='imagen/sector.jpg' onmouseover="this.src='imagen/soto.jpg'" onmouseout="this.src='imagen/sector.jpg' " width="1000px" height="400px"; class="img-fluid">
+<p>  
+     + Nuestro establecimiento comercial le ofrece una gama de productos de buena calidad.</br>
+     + Nuestro personal le dara una tencion de calidad y atencion rapida. </br>
+     + Apersonese a nuestro establecimientos encontrara lo que esta buscando.
+</p>
+<img src='imagen/ferrer.jpg' onmouseover="this.src='imagen/img.jpg'" onmouseout="this.src='imagen/ferre.jpg' " width="1000px" height="400px"; class="img-fluid">
 
-   </br> </br> 
-
-<center> <img src="imagen/ferre.jpg"  class="img-fluid"  width="1000px" height="400px" ;><pre> 
-<h2>  
-     + Nuestro establecimiento comercial le ofrece una gama de productos de buena calidad.
-     + Nuestro personal le dara una tencion de calidad y atencion rapida. 
-     + Apersonese a nuestro establecimientos encontrara lo que esta buscando.</center>
-</h2></pre> 
-</div>
+</article>
+    </section>
+        <aside>
+            <div id="related-section">
+            <div class="related">
+                    <img src="imagen/TharnType.png" width="60%" alt="">
+                    <h3>TharnType.</h3>
+            </div>
+            <div class="related">
+                    <img src="imagen/color.jpg" width="60%" alt="">
+                    <h3>Color Rush.</h3>
+            </div>
+            <div class="related">
+                    <img src="imagen/max.jpeg" width="60%" alt="">
+                    <h3>Manner of Death. </h3>
+            </div> 
+            </div>
+        </aside>
+        
+        <style>
+		body{background: silver;}
+	</style>
+</br></br></br>
+<footer>
+</footer>
 </body>
 </html>
