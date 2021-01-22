@@ -1,10 +1,19 @@
-
 <!DOCTYPE html>
-   <html >
-   <head>
+<html> <!-- jqueryasyncget.htm -->
+  <head>
+    <title>jQuery Asynchronous GET</title>
+    <script src='jquery-3.2.1.min.js'></script>
+    <meta charset="utf-8"> 
     <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+  </head>
+  <body style='text-align:center'>
+    <div id='info'></div>
+    <script>
+      $.get('urlget.php?url=registroP.php', function(data)
+      {
+        $('#info').html(data)
+      } )
+    </script>
 <header>
     <div class="menu_bar">
         <a href="#" >Menú</a>
@@ -21,11 +30,11 @@
                 </li>
                 <li ><a href="#">Productos</a>
                     <ul> 
-                        <li ><a href="#">Registro de Productos</a></li>
-                        <li ><a href="#">Trabajo Que Ofrecemos</a></li>
+                        <li ><a href="registroP.php">Registro de Productos</a></li>
+                        <li ><a href="diseñoPrecio.php">Descuento de producto</a></li>
                      </ul></li>
-                <li><a href="#">Categoria Productos</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="categoria.php">Categoria Productos</a></li>
+                <li><a href="servicio.php">Servicios</a></li>
         </ul>
 </div>
 
