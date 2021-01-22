@@ -48,8 +48,8 @@
 
 
 <section id="main-section">
+<center><h1>  Multiservicios Juan Diego</h1></center></br>
 <article>
-<h1>  Multiservicios Juan Diego</h1>
 <p>   Somos un establecimiento comercial dedicado a la venta de productos de gran útidad para
       autos de gran tamaño,la construcción y las necesidades del hogar,normalmente para el 
       público en general aunque  también existen dedicadas a profesionales con elementos 
