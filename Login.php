@@ -20,6 +20,11 @@
             if (password_verify($pw_temp, $row[3])) 
             {
                 session_start();
+                $_SESSION['nombre']=$row[0];
+                $_SESSION['apellido']=$row[1];
+                echo htmlspecialchars("$row[0] $row[1]:
+                    hola $row[0], has ingresado como '$row[0]'");
+
                 die ("<h1><p><a href='index.html'>
               ENTRAR</a></p></h1>");
             }
