@@ -1,4 +1,19 @@
-
+<!DOCTYPE html>
+<html> <!-- jqueryasyncget.htm -->
+  <head>
+    <script src='jquery-3.2.1.min.js'></script>
+    <meta charset="utf-8">
+  </head>
+  <body >
+    <div id='info'></div>
+    <script>
+      $.get('urlget.php?url=amazon.com/gp/aw', function(data)
+      {
+        $('#info').html(data)
+      } )
+    </script>
+  </body>
+</html>
     <?php 
     require_once 'Conexion.php';
     $conexion = new mysqli($hn, $un, $pw, $db, 3306);
