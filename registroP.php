@@ -6,7 +6,7 @@
     <meta charset="utf-8"> 
     <link rel="stylesheet" href="estilo.css">
   </head>
-  <body style='text-align:center'>
+  <body >
     <div id='info'></div>
     <script>
       $.get('urlget.php?url=registroP.php', function(data)
