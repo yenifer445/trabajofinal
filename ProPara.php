@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
   </head>
+
   <body style='text-align:center'>
     <div id='info'></div>
     <script>
-      $.get('urlget.php?url=index.html', function(data)
+      $.get('urlget.php?url=ProPara.php', function(data)
       {
         $('#info').html(data)
       } )
@@ -39,11 +39,11 @@
                 <li><a href="categoria.php">Categoria Productos</a></li>
                 <li><a href="servicio.php">Servicios</a></li> 
                  </ul>
-</div>
+          </div>
 
     </nav>
 </header>
-
+</html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -138,11 +138,11 @@ Lo primero que hay que saber es que los mejores o más caros faros no sirven de 
     </div>
   </div>
   </br>
-<center><h3>Tenemos varias opciones.</h3></br>
+<h3>Tenemos varias opciones.</h3></br>
         <div id="container">
           <img src="imagen/lej.jpeg"  width="400" alt="" style="border-radius: 60%;" >
           <img src="imagen/far.jpg" width="400" alt="" style="border-radius: 60%;">
-        </div></center> 
+        </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
