@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
+<html> <!-- jqueryasyncget.htm -->
+  <head>
+    <title>jQuery Asynchronous GET</title>
+    <script src='jquery-3.2.1.min.js'></script>
+    <meta charset="utf-8">
 	<title>Menu</title>
     <link rel="stylesheet" href="estilo.css">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    </head>
-<body>
+  </head>
+  <body style='text-align:center'>
+    <div id='info'></div>
+    <script>
+      $.get('urlget.php?url=diseñoPrecio.php', function(data)
+      {
+        $('#info').html(data)
+      } )
+    </script>
 <header>
     <div class="menu_bar">
         <a href="#" >Menú</a>
