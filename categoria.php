@@ -16,7 +16,7 @@
 <body  style='text-align:center'>
     <div id='info'></div>
     <script>
-      $.get('urlget.php?url=amazon.com/gp/aw', function(data)
+      $.get('urlget.php?url=categoria.php', function(data)
       {
         $('#info').html(data)
       } )
@@ -38,7 +38,7 @@
                 </li>
                 <li ><a href="#">Productos</a>
                     <ul> 
-                        <li ><a href="registroP.php">Registro de Productos</a></li>
+                        <li ><a href="ProPara.php">Nuevos Productos</a></li>
                         <li ><a href="diseñoPrecio.php">Descuentos en producto</a></li>
                      </ul></li>
                 <li><a href="categoria.php">Categoria Productos</a></li>
