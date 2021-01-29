@@ -7,7 +7,7 @@
   <body >
     <div id='info'></div>
     <script>
-      $.get('urlget.php?url=amazon.com/gp/aw', function(data)
+      $.get('urlget.php?url=sig.php', function(data)
       {
         $('#info').html(data)
       } )
