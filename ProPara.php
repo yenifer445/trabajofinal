@@ -36,7 +36,10 @@
                         <li ><h11><a href="ProPara.php">Nuevos producto</a></h11></li>
                         <li ><a href="diseñoPrecio.php">Descuento Producto </a></li>
                      </ul></li>
-                <li><a href="categoria.php">Categoria Productos</a></li>
+                <li><a href="categoria.php">Categoria Productos</a>
+                <ul> 
+                  <li ><a href="registroP.php">Registro Producto </a></li>
+                  </ul></li>
                 <li><a href="servicio.php">Servicios</a></li> 
                  </ul>
           </div>
@@ -58,7 +61,37 @@
     <h1>Productos automovilistico Nuevos </h1>
   </head>
   <body>
-  </br></br>    
+  </br></br>  
+  <div class="card-group">
+  <div class="card">
+    <img src="imagen/fibra.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Resina Poliester</h5>
+      <p class="card-text">Las resinas de poliéster son resinas sintéticas insaturadas formadas por la reacción de ácidos orgánicos dibásicos y alcoholes polihídricos. El anhídrido maleico es una materia prima de uso común con funcionalidad de diácido. Las resinas de poliéster se utilizan en el compuesto de moldeo de hojas, el compuesto de moldeo a granel y el tóner de las impresoras láser. Los paneles de pared fabricados con resinas de poliéster reforzadas con fibra de vidrio -el llamado plástico reforzado con fibra de vidrio (FRP).</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="imagen/cata.jpg" width="100px" height="400px"; class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Catalizador</h5>
+      <p class="card-text">El catalizador de resinas o  también llamado Peroxido Metil Etil Cetona o PMEC, es un compuesto que se agrega a las resinas para que permitan endurecer sobre la fibra de vidrio, así de simple se los explico para no enrollarnos mucho.
+        ¿Como de aplica un catalizador de resina?
+El catalizador se aplica entre un 1% y un 3%, la temperatura ideal de utilización de un catalizador es de 20 grados, es muy importante cuidar las dosificaciones debido a que si se agrega poco catalizador no se consiguen buenas propiedades mecánica, y mucho catalizador provoca un color muy amaraillento al endurecer.</p>
+      </div>
+  </div>
+  <div class="card">
+    <img src="imagen/cobal.jpg" width="100px" height="400px"; class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cobalto</h5>
+      <p class="card-text">El Acelerante de Cobalto al 6% es utilizado para el curado de las resinas de poliester y son fabricadas a partir de las sales de Cobalto , ya sean en su forma de Naftenato u Octoato en una concentración al 6% de contenido del metal. ATRIBUTOS: "- Presenta buena estabilidad contra la oxidación atmosférica , la decoloración y precipitación. - Se recomienda diluir el cobalto en monómero de estireno antes de agregarlo a la resina "
+
+Aplicaciones:
+Agente acelerante en el curado de las resinas de poliester catalizadas con peróxido de MEK en frío.</p>
+
+    </div>
+  </div>
+</div>
+    </br></br></br>
 <div class="row g-0 bg-light position-relative">
   <div class="col-md-6 mb-md-0 p-md-4">
     <img src="imagen/para.jpg"   class="w-100" alt="..." width="80px" height="250px";>
