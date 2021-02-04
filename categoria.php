@@ -27,26 +27,31 @@
         <a href="#" >Menú</a>
     </div>
     <nav>
-        <ul>
-            <div id="header">
-                <ul class="nav">
-                <img  src="imagen/loo.jpg" alt="" width="70px" height="60px";>
-                <li><a href="index.html">Inicio</a>
+    <ul>
+        <div id="header">
+            <ul class="nav">
+            <img  src="imagen/loo.jpg" alt="" width="70px" height="60px";>
+            <li><a href="menu.html">Inicio</a>
+            <ul> 
+            <li ><a href="info.php">Informacion</a></li>
+            <li ><a href="cerrar.php">Cerrar Seccion</a></li>
+            </ul>
+            </li>
+            <li ><a href="#">Productos</a>
+            <ul> 
+                <li ><h11><a href="ProPara.php">Nuevo Productos</a></h11></li>
+                 <li ><a href="diseñoPrecio.php">Descuentos en Producto</a></li>
+                    </ul></li>
+                <li><a href="categoria.php">Categoria Productos</a>
                 <ul> 
-                <li ><a href="info.php">Informacion</a></li>
-                 </ul>
-                </li>
-                <li ><a href="#">Productos</a>
-                    <ul> 
-                        <li ><a href="ProPara.php">Nuevos Productos</a></li>
-                        <li ><a href="diseñoPrecio.php">Descuentos en producto</a></li>
-                     </ul></li>
-                <li><a href="categoria.php">Categoria Productos</a></li>
+                <li ><h11><a href="registroP.php">Registro de Productos</a></h11></li>
+                    </ul>
+            </li>
                 <li><a href="servicio.php">Servicios</a></li>
-        </ul>
+           </ul>
 </div>
+</nav>
 
-    </nav>
 	<center><img src="imagen/img.jpg" alt="" width="1560px" height="560px";></center>
 </header>
 <body>	</br></br>

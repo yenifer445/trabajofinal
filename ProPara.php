@@ -17,34 +17,35 @@
         $('#info').html(data)
       } )
     </script>
-    <header>
+   <header>
     <div class="menu_bar">
         <a href="#" >Menú</a>
     </div>
     <nav>
-        <ul>
-            <div id="header">
-                <ul class="nav">
-                <img  src="imagen/loo.jpg" alt="" width="70px" height="60px";>
-                <li><a href="index.html">Inicio</a>
-                <ul> 
-                    <li ><a href="info.php">Informacion</a></li>
-                 </ul>
-                </li>
-                <li ><a href="registroP.php">Productos</a>
-                    <ul> 
-                        <li ><h11><a href="ProPara.php">Nuevos producto</a></h11></li>
-                        <li ><a href="diseñoPrecio.php">Descuento Producto </a></li>
-                     </ul></li>
+    <ul>
+        <div id="header">
+            <ul class="nav">
+            <img  src="imagen/loo.jpg" alt="" width="70px" height="60px";>
+            <li><a href="menu.html">Inicio</a>
+            <ul> 
+            <li ><a href="info.php">Informacion</a></li>
+            <li ><a href="cerrar.php">Cerrar Seccion</a></li>
+            </ul>
+            </li>
+            <li ><a href="#">Productos</a>
+            <ul> 
+                <li ><h11><a href="ProPara.php">Nuevo Productos</a></h11></li>
+                 <li ><a href="diseñoPrecio.php">Descuentos en Producto</a></li>
+                    </ul></li>
                 <li><a href="categoria.php">Categoria Productos</a>
                 <ul> 
-                  <li ><a href="registroP.php">Registro Producto </a></li>
-                  </ul></li>
-                <li><a href="servicio.php">Servicios</a></li> 
-                 </ul>
-          </div>
-
-    </nav>
+                <li ><h11><a href="registroP.php">Registro de Productos</a></h11></li>
+                    </ul>
+            </li>
+                <li><a href="servicio.php">Servicios</a></li>
+           </ul>
+</div>
+</nav>
 </header>
 </html>
 <!DOCTYPE html>

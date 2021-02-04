@@ -13,24 +13,28 @@
     <nav>
         <ul>
             <div id="header">
-                <ul class="nav">
+                <ul class="nav"><nav class="navbar navbar-dark bg-dark"><div class="container-fluid"></div>
                 <img  src="imagen/loo.jpg" alt="" width="70px" height="60px";>
-                <li><a href="index.html">Inicio</a>
+                <li><a href="menu.html">Inicio</a>
                 <ul> 
-                <li ><a href="info.php">Informacion</a></li>
+                    <li ><a href="info.php">Informacion</a></li>
+                    <li ><a href="cerrar.php">Cerrar Sesion</a></li>
                  </ul>
                 </li>
-                <li ><a href="#">Productos</a>
+                <li ><a href="">Productos</a>
                     <ul> 
-                        <li ><a href="registroP.php">Registro de Productos</a></li>
-                        <li ><a href="diseñoPrecio.php">Descuentos en producto</a></li>
+                        <li ><h11><a href="ProPara.php">Nuevos producto</a></h11></li>
+                        <li ><a href="diseñoPrecio.php">Descuento Producto </a></li>  
                      </ul></li>
-                <li><a href="categoria.php">Categoria Productos</a></li>
-                <li><a href="servicio.php">Servicios</a></li>
-        </ul>
+                <li><a href="categoria.php">Categoria Productos</a><ul> 
+                  <li ><a href="registroP.php">Registro Producto </a></li>
+                  </ul>
+                </li>
+                <li><a href="servicio.php">Servicios</a></li> 
+                 </div>
+              </nav>
+              </ul>
 </div>
-
-    </nav>
 </header>
 <style>
        .container{
