@@ -1,3 +1,8 @@
+ <html>
+      <body >
+      <img src="imagen/fis.jpg" width="600" height="700" align="left"/>
+      </body> 
+      </html>
 <?php //logout.php
     session_start();
     if (isset($_SESSION['nombre']))
@@ -9,8 +14,8 @@
 
         echo "Sesión terminada <a href='Login.php'>Ingresar</a>.<br>";
     }
-    else echo "Por favor <a href='Login.php'>Click aqui</a>
-                para ingresar";
+    else echo "<h1> <a href='Login.php'>Click aqui</a></h1>
+                ";
 
     function destroy_session_and_data()
     {
