@@ -148,7 +148,7 @@ Similares características tienen las superficies semejantes de cualquier vehíc
     <img src="imagen/faro.PNG"  width="100px" height="290px"; class="w-100" alt="...">
   </div>
   <div class="col-md-6 p-4 ps-md-0">
-    <h5 class="mt-0">Espejo retrovisor</h5>
+    <h5 class="mt-0">Faros Para Automoviles</h5>
     <p>Los faros de un coche son los proyectores de luz que sirven para iluminar el camino de un vehículo por la noche. También sirven para que el vehículo sea más visible a los demás, cuando hay poca visibilidad. Este componente ahora obligatorio en los vehículos automóviles, no siempre lo ha sido.
 
 Aunque hoy no se pueda imaginar otro tecnología que no sea la eléctrica, en los inicios del automóvil era simplemente una linterna que utilizaba la luz de la llama de una vela, o bien de una lámpara de petróleo o bien de acetileno.</p>
