@@ -41,7 +41,7 @@
                 echo htmlspecialchars("$row[0] $row[1]:
                     hola $row[0], has ingresado como '$row[0]'");
 
-                die ("<h1><p><a href='index.html'>
+                die ("<h1><p><a href='menu.html'>
               ENTRAR</a></p></h1>");
             }
             else {
@@ -63,7 +63,7 @@
       <center><h3>INGRESE </h3><img src="imagen/log.jpg" class="log" style="width:70px;height:67px" /> </center>
       <form method="post" action="Login.php">
       <input type="text" name="username" placeholder="Nombre de Usuario" style="width:400px;height:50px"> </br></br>
-      <input type="text" name="password" placeholder="Contraseña" style="width:400px;height:50px"> </br></br>
+      <input type="password" name="password" placeholder="Contraseña" style="width:400px;height:50px"> </br></br>
       <input type="text" name="email"  placeholder="Correo Electronico" style="width:400px;height:50px">
       </br></br><center><input type="submit" value="Entrar" style="width:100px;height:50px"></center>
       <br><br><a href="sig.php"><h3> si no tienes una cuenta:Registrate</h3></a>
@@ -85,3 +85,18 @@
       }  
 
   ?>
+<?php //
+if (isset($_SERVER['PHP_AUTH_USER']) &&
+isset($_SERVER['PHP_AUTH_PW']))
+{
+echo "Bienvenido Usuario: " .
+htmlspecialchars($_SERVER['PHP_AUTH_USER']).
+"Password: " . htmlspecialchars($_SERVER['PHP_AUTH_PW']);
+}
+else
+{
+header('WWW-Authenticate: Basic realm="Restricted Area"');
+header('HTTP/1.0 401 Unauthorized');
+die("Please enter your username and password");
+}
+?>

@@ -44,7 +44,7 @@
         <h3> <input type="text" name="nombre" placeholder="Nombre" required=""></h3>
         <h3><input type="text" name="apellido" placeholder="Apellido" required="" ></h3>
         <h3><input type="text" name="username" placeholder="username" required=""></h3>
-        <h3><input type="text" name="password"  placeholder="Contraseña" required=""></h3> 
+        <h3><input type="password" name="password"  placeholder="Contraseña" required=""></h3> 
         <h3><input type="email" name="email" placeholder="Correo Electronico" required=""></h3></br>
                  <input type="hidden" name="reg" value="yes">
                  <input type="submit" value="REGISTRAR" style="width:100px;height:50px"></center></form></div></html>
