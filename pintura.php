@@ -127,6 +127,9 @@ Entre los efectos que pueden lograrse mediante el uso de tecnologías de pintura
 <p><a href="https://static.weg.net/medias/downloadcenter/h6f/h5b/WEG-pinturas-pintura-automotriz-50049976-catalogo-es.pdf"  class="btn btn-danger">  Mas informacion pdf   </a></p>
 </article>
 		
-	</div>
+    </div>
+    </br></br>
+<footer>
+</footer>
 </body>
 </html>
