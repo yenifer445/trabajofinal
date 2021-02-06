@@ -27,6 +27,7 @@
                         <li ><a href="diseñoPrecio.php">Descuento Producto </a></li>  
                      </ul></li>
                 <li><a href="categoria.php">Categoria Productos</a><ul> 
+                <li ><a href="pintura.php">Pintura Vehiculares</a></li>  
                   <li ><a href="registroP.php">Registro Producto </a></li>
                   </ul>
                 </li>

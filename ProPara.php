@@ -39,6 +39,7 @@
                     </ul></li>
                 <li><a href="categoria.php">Categoria Productos</a>
                 <ul> 
+                <li ><a href="pintura.php">Pintura Vehiculares</a></li>  
                 <li ><h11><a href="registroP.php">Registro de Productos</a></h11></li>
                     </ul>
             </li>
